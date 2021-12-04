@@ -1,26 +1,33 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <div class="parent">
-        <img class="Portada" src="img/rain.jpg">
-        <img class="Perfil" src="img/perfilweb.png" alt="Cornelatti Joaquin">
-        
-    </div>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Cornelatti Joaquin</title>
 </head>
 <body>
-
-
-    <div class="parent">
-        <h2 class="Titulo"> Cornelatti Joaquin</h2>
-        <p class="Info">Tecnico superior en creacion de software <br>
-            Programador Unity
-        </p>
-        <p class="Info"> <br> Salsacate(Cordoba, Argentina)</p>        
-        <p class="Info"><br> Contacto :<a class="Contacto" href="mailto:darkjoa.jc@gmail.com">Email</a></p>       
-    </div>
-
+    <div class="row">
+            <div class="PerfilBase">
+                    <img id="Perfil" src="img/PerfilJoa.jpg" width="164" alt="Cornelatti Joaquin">
+                    <h1 class="Titulo"> Cornelatti Joaquin</h1>
+            </div>  
+            <div class="ContenidoBox" id="Box1">
+                <h2>Sobre mi:</h2>
+                <p id="result">Tecnico superior en creacion de software <br> Programador Unity <br> Salsacate(Cordoba, Argentina)        
+                </p>
+                <div>
+                    <input type="text" id="input-get" placeholder="Get Value">
+                    <button id="btn-get">Editar</button>
+                </div>                         
+            </div>
+            <div class="ContenidoBox" id="Box2">
+                <h2>
+                    Experiencia:
+                </h2>
+            </div>
+        </div>
+        <script src="main.js"></script>
 </body>
 </html>
