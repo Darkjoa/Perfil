@@ -1,64 +1,68 @@
-.row {
-  height: 900px;
-  width: 100%;
+/* dar forma a los divs*/
+.contenedor{
+  display: flex; 
+  flex-direction: column;
+  width: 90%;
+  border: 2px solid rgb(198, 209, 209);
+  padding: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  position:relative;
+  text-align: justify;
+  color:white;
+  box-shadow: 20px 10px 10px black;
+  
 }
+/*Estilo general*/
 body{
   width: 100%;
   background-color: rgb(49, 49, 49);
   position: absolute;
 
 }
+/*Base de perfil + imagen de fondo*/
 .PerfilBase{
   height: 300px;
-  background-image: url(/img/rain.jpg);
-  margin: -10px;
+  background-image: url(img/rain.jpg);
   background-size: 100% 100%;
   
 }
+/*Foto de perfil*/
 #Perfil{
   border-radius: 100%;
   border: 100% solid #71047a;
   box-shadow: 0 2px 2px red;
   box-sizing: border-box;
-  margin-top: 200px;
-  
-  position: absolute;
-  
+  margin-top: 150px;  
+  background-size: cover;
+  background-position: center;
+  width: 156px;
+  height: 156px;
+
 }
-.ContenidoBox{
+/*Forma de los botones de edicion*/
+.EditBtn{
+  height: 31px;
+  width: 40px;
+  margin-top:0px;
+  margin-left: 2px;
   position:absolute;
-  border: 1px solid cyan;
-  padding: 0% 1% 0 1%;
-  border-radius: 10px;;
-  width: 97%;
-  color:white;
-  
+  background-image: url(img/btn-Edit.png);
+  background-size: 100% 100%;
+  background-color: rgb(49, 49, 49);
 }
-#Box1{
-  margin: 80px 0px 0px 0px;
-}
-#Box2{
-  margin: 290px 0px 0px 0px;
-}
-
-
+/*Nombre al lado de la foto*/
 .Titulo{
   position: absolute;
   font-family: verdana, arial, helvetica;
-  margin-left: 200px;
-  margin-top: 280px;
+  margin-left: 192px;
+  margin-top: 220px;
   Color: white;
-  background-color: #71047a;
+  background-color:black;
   border-radius: 8px;
 }
-.btn-edit{
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  margin-top:5px;
-  margin-left:94vw;
-  box-sizing: border-box;
-}
+
 .container{
   display: flex;
   justify-content:  space-evenly;
@@ -66,4 +70,15 @@ body{
 }
 input, button {
   height:25px;
+}
+#image_input{
+  margin-top: 150px;
+  margin-left: 150px;
+  position:absolute;
+}
+.ImgBtn{
+  background-color:black;
+}
+.barra{
+  width:100%
 }

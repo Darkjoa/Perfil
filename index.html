@@ -8,26 +8,89 @@
     <title>Cornelatti Joaquin</title>
 </head>
 <body>
-    <div class="row">
-            <div class="PerfilBase">
-                    <img id="Perfil" src="img/PerfilJoa.jpg" width="164" alt="Cornelatti Joaquin">
-                    <h1 class="Titulo"> Cornelatti Joaquin</h1>
-            </div>  
-            <div class="ContenidoBox" id="Box1">
-                <h2>Sobre mi:</h2>
-                <p id="result">Tecnico superior en creacion de software <br> Programador Unity <br> Salsacate(Cordoba, Argentina)        
-                </p>
-                <div>
-                    <input type="text" id="input-get" placeholder="Get Value">
-                    <button id="btn-get">Editar</button>
-                </div>                         
-            </div>
-            <div class="ContenidoBox" id="Box2">
-                <h2>
-                    Experiencia:
-                </h2>
-            </div>
+    <div class="PerfilBase contenedor">
+        <img id="Perfil" src="img/PerfilJoa.jpg" alt="Cornelatti Joaquin">
+        <input class="ImgBtn" type="file" id="image_input" >
+        
+        
+        <h1 class="Titulo"> Cornelatti Joaquin</h1>
+        
+</div> 
+        
+        <div class="contenedor">
+            
+            <h2>Sobre mi:</h2>
+            <p id="result">Tecnico superior en creacion de software <br> Programador Unity <br> Salsacate(Cordoba, Argentina)        
+            </p>
+            <div>
+                <input  type="text" id="input-get" >
+                <button class="EditBtn" id="btn-get"></button>
+            </div>                         
         </div>
-        <script src="main.js"></script>
+
+
+
+        
+<div class="contenedor">
+    <h2>
+        Estudios:
+    </h2>
+    <p id="result2">        
+        Tecnico superior en creacion de software: 2014 -2016 <br>
+        Argentina programa: 2021 - Hoy
+    </p>
+    <div>
+        <input type="text" id="input-get2">
+        <button class="EditBtn" id="btn-get2"></button>
+        
+    </div>  
+    </div>
+    <div class="contenedor">
+        <h2>
+            Experiencia:
+        </h2>
+        <p id="result3">        
+            Encargado Tony muebles <br>
+            Abril 2016 - Febrero 2021
+        </p>
+        <div>
+            <input type="text" id="input-get3">
+            <button class="EditBtn" id="btn-get3"></button>
+        </div>
+
+        </div>
+        <div class="contenedor">
+            <h2>
+                Habilidades:
+                
+            </h2>
+            <p class="result4">
+               Visual Studio: 
+            </p>
+            <progress class="b1 barra" value="100" max="100"> 100% </progress> 
+            <p class="result5">
+                Sql Server:                 
+            </p>
+            <progress class="b2 barra" value="100" max="100"> 100% </progress> 
+            <p class="result6">
+                Html5: 
+            </p>
+            <progress class="b3 barra" value="80" max="100"> 80% </progress> 
+            <p class="result6">
+                Css: 
+            </p>
+            <progress class="b4 barra" value="80" max="100"> 80%% </progress>
+            <p class="result7">
+                Javascript: 
+            </p>
+            <progress class="b5 barra" value="70" max="100"> 100% </progress>
+            <p class="result8">
+                TypeScript: 
+            </p>
+            <progress class="b6 barra" value="70" max="100"> 100% </progress>
+        </div>
+        
+    <script src="main.js"></script>
+
 </body>
 </html>
