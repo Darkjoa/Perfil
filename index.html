@@ -8,23 +8,29 @@
     <title>Cornelatti Joaquin</title>
 </head>
 <body>
+    
     <div class="PerfilBase contenedor">
+        
         <img id="Perfil" src="img/PerfilJoa.jpg" alt="Cornelatti Joaquin">
-        <input class="ImgBtn" type="file" id="image_input" >
+        <input class="ImgBtn" type="file" id="image_input">
         
         
         <h1 class="Titulo"> Cornelatti Joaquin</h1>
         
-</div> 
+    </div>
         
         <div class="contenedor">
             
             <h2>Sobre mi:</h2>
-            <p id="result">Tecnico superior en creacion de software <br> Programador Unity <br> Salsacate(Cordoba, Argentina)        
+            <a class="Redes" href="https://www.facebook.com/joaquin.cornelatti/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/joaquin-cornelatti-17a7b8200/" class="Redes linkedin" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="mailto:Darkjoa.jc@gmail.com" class="Redes Email" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+            <button class="Show" onclick="show_hide1()"></button>
+            <p id="result" > Tecnico superior en creacion de software <br> Programador Unity <br> Salsacate(Cordoba, Argentina)        
             </p>
-            <div>
-                <input  type="text" id="input-get" >
-                <button class="EditBtn" id="btn-get"></button>
+            <div id="Label1">
+                <input  type="text" class="input" id="input-get" oninput="inputGet3()">
             </div>                         
         </div>
 
@@ -35,13 +41,14 @@
     <h2>
         Estudios:
     </h2>
+    <button class="Show" onclick="show_hide2()"></button>
     <p id="result2">        
         Tecnico superior en creacion de software: 2014 -2016 <br>
         Argentina programa: 2021 - Hoy
     </p>
-    <div>
-        <input type="text" id="input-get2">
-        <button class="EditBtn" id="btn-get2"></button>
+    <div id="Label2">
+        <input type="text" class="input" id="input-get2" oninput="inputGet2()">
+        
         
     </div>  
     </div>
@@ -49,13 +56,13 @@
         <h2>
             Experiencia:
         </h2>
+        <button class="Show" onclick="show_hide3()"></button>
         <p id="result3">        
             Encargado Tony muebles <br>
             Abril 2016 - Febrero 2021
         </p>
-        <div>
-            <input type="text" id="input-get3">
-            <button class="EditBtn" id="btn-get3"></button>
+        <div id="Label3">
+            <input type="text" class="input" id="input-get3" oninput="inputGet3()">
         </div>
 
         </div>
@@ -91,6 +98,8 @@
         </div>
         
     <script src="main.js"></script>
-
+    <!--Fuente de iconos-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

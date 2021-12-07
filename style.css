@@ -14,6 +14,33 @@
   box-shadow: 20px 10px 10px black;
   
 }
+.Show{
+  width: 30px;
+  height:30px;
+  margin-left: 98.5%;
+  margin-top: -14px;
+  background-image: url(img/images2.png);
+  background-size: 100% 100%;
+}
+
+/* Iconos de redes sociales */
+.Redes{
+  color:white;
+  transition: 0.2s;
+
+
+}
+.Redes:hover{
+  color:blue;
+}
+.linkedin{
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.Email{
+  margin-top: -20px;
+  margin-left: 40px;
+}
 /*Estilo general*/
 body{
   width: 100%;
@@ -63,11 +90,7 @@ body{
   border-radius: 8px;
 }
 
-.container{
-  display: flex;
-  justify-content:  space-evenly;
-  margin-top: 50px
-}
+
 input, button {
   height:25px;
 }
