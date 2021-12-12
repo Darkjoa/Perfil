@@ -1,0 +1,19 @@
+{
+  "name": "proyect4",
+  "version": "1.0.0",
+  "description": "Portfolio JS, Css, Html",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkjoa/Perfil.git"
+  },
+  "author": "Cornelatti Joaquin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkjoa/Perfil/issues"
+  },
+  "homepage": "https://github.com/Darkjoa/Perfil#readme"
+}
