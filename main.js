@@ -4,6 +4,8 @@ document.getElementById("Label2").style.display='none';
 document.getElementById("Label3").style.display='none';
 let inputGet = document.querySelector('#input-get');
 let result = document.querySelector('#result');
+
+
 inputGet.addEventListener('keypress', function (e) {
   if (e.key === 'Enter') {
     result.innerText = inputGet.value;

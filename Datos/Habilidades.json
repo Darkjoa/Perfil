@@ -1,0 +1,34 @@
+{"Habilidades":[
+    
+    {
+        "index": "1",
+        "Habilidad": "Visual Studio",
+        "Porcentaje": "100"
+    },
+    {
+        "index": "2",
+        "Habilidad": "Sql Server",
+        "Porcentaje": "100"
+    },
+    {
+        "index": "3",
+        "Habilidad": "Html5",
+        "Porcentaje": "80"
+    },
+    {
+        "index": "4",
+        "Habilidad": "Css",
+        "Porcentaje": "80"
+    },
+    {
+        "index": "5",
+        "Habilidad": "Javascript",
+        "Porcentaje": "70"
+    },
+    {
+        "index": "5",
+        "Habilidad": "TypeScript",
+        "Porcentaje": "70"
+    }
+]
+}
