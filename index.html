@@ -7,34 +7,30 @@
     <link rel="stylesheet" href="style.css">
     <title>Cornelatti Joaquin</title>
 </head>
-<body>
+<body >
     
     <div class="PerfilBase contenedor">
-        
+        <a class="Redes" href="https://www.facebook.com/joaquin.cornelatti/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/joaquin-cornelatti-17a7b8200/" class="Redes linkedin" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="mailto:Darkjoa.jc@gmail.com" class="Redes Email" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
         <img id="Perfil" src="img/PerfilJoa.jpg" alt="Cornelatti Joaquin">
         <input class="ImgBtn" type="file" id="image_input">
         
         
         <h1 class="Titulo"> Cornelatti Joaquin</h1>
-        <button class="bt2" type= button> Me interesa</button>
-        <button class="bt3 btt1" type= button> Agregar</button>
-        <button class="bt3 btt2" type= button> Mas</button>
+        <button class="bt" type= button> Me interesa</button>
+        <button class="bt2 bot1" type= button> Agregar</button>
+        <button class="bt2 bot2" type= button> Mas</button> 
         
     </div>
-        
-        <div class="contenedor">
-            
-            <h2>Sobre mi:</h2>
-            <a class="Redes" href="https://www.facebook.com/joaquin.cornelatti/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="https://www.linkedin.com/in/joaquin-cornelatti-17a7b8200/" class="Redes linkedin" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-            <a href="mailto:Darkjoa.jc@gmail.com" class="Redes Email" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+        <div class="contenedor" id="1">
             <button class="Show" onclick="show_hide1()"></button>
-            <p id="result" > Tecnico superior en creacion de software <br> Programador Unity <br> Salsacate(Cordoba, Argentina)        
-            </p>
+            <h2>Sobre mi:</h2>
             <div id="Label1">
-                <input  type="text" class="input" id="input-get" oninput="inputGet3()">
-            </div>                         
+                <input type="text" class="input" id="input-get">
+            </div>
+             <button class="Show2" id="BTNADD" onclick="AgregarTextoArray()"></button>
         </div>
 
 
@@ -96,10 +92,14 @@
             </p>
             <progress class="b6 barra" value="70" max="100"> 100% </progress>
         </div>
+    
         
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="main.js"></script>
     <!--Fuente de iconos-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!---->
+    
 </body>
 </html>
